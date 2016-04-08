@@ -20,18 +20,45 @@
     <script src="./assets/js/bootstrap.min.js"></script>
 </head>
 <body>
+<form method="post">
 <div class="col-md-4 col-md-offset-4">
     <div class="container-fluid">
         <div class="title">Bruce</div>
-        <form method="post">
             <textarea class="form-control" name="say" cols="30" rows="10"></textarea>
+            <select class="form-control pull-right" name="voice" style="margin-top:10px;">
+                <option>Alex</option>
+                 <option>Agnes</option>
+                 <option>Kathy</option>
+                 <option>Princess</option>
+                 <option>Vicki</option>
+                 <option>Victoria</option>
+                 <option>Bruce</option>
+                 <option>Fred</option>
+                 <option>Junior</option>
+                 <option>Ralph</option>
+                 <option>Albert</option>
+                 <option>Bad News</option>
+                 <option>Bahh</option>
+                 <option>Bells</option>
+                 <option>Boing</option>
+                 <option>Bubbles</option>
+                 <option>Cellos</option>
+                 <option>Deranged</option>
+                 <option>Good News</option>
+                 <option>Hysterical</option>
+                 <option>Pipe Organ</option>
+                 <option>Trinoids</option>
+                 <option>Whisper</option>
+                 <option>Zarvox</option>
+            </select>
             <input class="btn btn-primary" type="submit" style="margin-top:10px;"/>
-        </form>
+
+
     </div>
 </div>
 <div class="col-md-12">
     <div class="container">
-        <form method="post">
+
             <div class="page-header">
                 <h1>Bruceisms</h1>
             </div>
@@ -46,8 +73,9 @@
                         type="submit" style="margin-top:10px;">Scary questions
                 </button>
             </div>
-        </form>
+
     </div>
 </div>
+</form>
 </body>
 </html>
