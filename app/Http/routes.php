@@ -16,7 +16,6 @@ Route::get('/', function () {
 });
 
 Route::post('/', function () {
-    shell_exec('say -v "Alex" '.escapeshellarg($_POST['say']));
-        echo 'say -v "Alex" '.escapeshellarg($_POST['say']);
+    shell_exec('say -v "Alex" \"'.escapeshellarg($_POST['say'])."\"");
     return view('welcome');
 });
