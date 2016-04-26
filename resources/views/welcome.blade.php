@@ -72,7 +72,7 @@
                 <button class="btn btn-info" name="say" value="If my answers frighten you then you should cease asking scary questions."
                         type="submit" style="margin-top:10px;">Scary questions
                 </button>
-                <button class="btn btn-info" name="chuck" value="Chuck"
+                <button class="btn btn-danger" name="chuck" value="Chuck"
                         type="submit" style="margin-top:10px;">Chuck
                 </button>
             </div>
