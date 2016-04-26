@@ -16,8 +16,15 @@ Route::get('/', function () {
 });
 
 Route::post('/', function () {
-    $command =  'say -v '.escapeshellarg($_POST['voice']).' "'.escapeshellarg($_POST['say']).'"';
+    if(isset($_POST['chuck'])){
+        $data = json_decode(file_get_contents("http://api.icndb.com/jokes/random"));
+        $command = 'say -v ' . escapeshellarg($_POST['voice']) . ' "' . escapeshellarg($data->value->joke) . '"';
+    }else {
+        $command = 'say -v ' . escapeshellarg($_POST['voice']) . ' "' . escapeshellarg($_POST['say']) . '"';
+    }
     shell_exec($command);
    echo $command;
     return view('welcome');
 });
+
+
