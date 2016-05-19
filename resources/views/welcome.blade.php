@@ -89,16 +89,16 @@
                 <button class="btn btn-primary" name="say" value="Kelly's in the house!"
                         type="submit" style="margin-top:10px;">Kelly
                 </button>
-                <button class="btn btn-info" name="say" value="Just trying to run an agency here"
+                <button class="btn btn-primary" name="say" value="Just trying to run an agency here"
                         type="submit" style="margin-top:10px;">Greg
                 </button>
-                <button class="btn btn-info" name="say" value="Alexander Tangi in the house!"
+                <button class="btn btn-primary" name="say" value="Alexander Tangi in the house!"
                         type="submit" style="margin-top:10px;">Alexander Tangi
                 </button>
-                <button class="btn btn-danger" name="say" value="Man the queen street car was brutal this morning"
+                <button class="btn btn-primary" name="say" value="Man the queen street car was brutal this morning"
                         type="submit" style="margin-top:10px;">Rob P
                 </button>
-                <button class="btn btn-danger" name="say" value="Puppy Monkey Baby, Puppy Monkey Baby. Puppy. Monkey. Baby"
+                <button class="btn btn-primary" name="say" value="Puppy Monkey Baby, Puppy Monkey Baby. Puppy. Monkey. Baby"
                         type="submit" style="margin-top:10px;">Puppy Monkey Baby
                 </button>
             </div>
