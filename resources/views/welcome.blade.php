@@ -92,7 +92,7 @@
                 <button class="btn btn-primary" name="say" value="Just trying to run an agency here"
                         type="submit" style="margin-top:10px;">Greg
                 </button>
-                <button class="btn btn-primary" name="say" value="Alexander Tangi in the house!"
+                <button class="btn btn-primary" name="say" value="Can you do me a huge favor? You're a good man."
                         type="submit" style="margin-top:10px;">Alexander Tangi
                 </button>
                 <button class="btn btn-primary" name="say" value="Man the queen street car was brutal this morning"
