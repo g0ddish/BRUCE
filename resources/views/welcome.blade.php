@@ -101,6 +101,10 @@
                 <button class="btn btn-primary" name="say" value="Puppy Monkey Baby, Puppy Monkey Baby. Puppy. Monkey. Baby"
                         type="submit" style="margin-top:10px;">Puppy Monkey Baby
                 </button>
+                <button class="btn btn-primary" name="say" value="It's beer o'clock"
+                        type="submit" style="margin-top:10px;">What time is it?
+                </button>
+
             </div>
 
         </div>
