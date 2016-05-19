@@ -66,7 +66,7 @@
                 <button class="btn btn-primary" name="say" value="He who controls the spice controls the universe"
                         type="submit" style="margin-top:10px;">He who controls the spice
                 </button>
-                <button class="btn btn-info" name="say" value="Put that coffee down! Coffee's for closers only. You think I'm fucking with you? I am not fucking with you. I'm here from downtown. I'm here from Mitch and Murray. And I'm here on a mission of mercy. Your name's Levene?"
+                <button class="btn btn-info" name="say" value="Put that coffee down! Coffee's for closers only. You think I'm fucking with you? I am not fucking with you. I'm here from downtown. I'm here from Mitch and Murray. And I'm here on a mission of mercy"
                         type="submit" style="margin-top:10px;">Put that coffee down
                 </button>
                 <button class="btn btn-info" name="say" value="If my answers frighten you then you should cease asking scary questions."
@@ -79,6 +79,32 @@
 
     </div>
 </div>
+    <div class="col-md-12">
+        <div class="container">
+
+            <div class="page-header">
+                <h1>BIMM Catchphrases</h1>
+            </div>
+            <div class="btn-group inline pull-left" data-toggle="buttons-checkbox">
+                <button class="btn btn-primary" name="say" value="Kelly's in the house!"
+                        type="submit" style="margin-top:10px;">Kelly
+                </button>
+                <button class="btn btn-info" name="say" value="Just trying to run an agency here"
+                        type="submit" style="margin-top:10px;">Greg
+                </button>
+                <button class="btn btn-info" name="say" value="Alexander Tangi in the house!"
+                        type="submit" style="margin-top:10px;">Alexander Tangi
+                </button>
+                <button class="btn btn-danger" name="chuck" value="Man the queen street car was brutal this morning"
+                        type="submit" style="margin-top:10px;">Rob P
+                </button>
+                <button class="btn btn-danger" name="chuck" value="Puppy Monkey Baby, Puppy Monkey Baby. Puppy. Monkey. Baby"
+                        type="submit" style="margin-top:10px;">Puppy Monkey Baby
+                </button>
+            </div>
+
+        </div>
+    </div>
 </form>
 </body>
 </html>
