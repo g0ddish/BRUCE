@@ -90,12 +90,15 @@
                         type="submit" style="margin-top:10px;">Kelly
                 </button>
                 <button class="btn btn-primary" name="say" value="Just trying to run an agency here"
-                        type="submit" style="margin-top:10px;">Greg
+                        type="submit" style="margin-top:10px;">MDP
                 </button>
-                <button class="btn btn-primary" name="say" value="Can you do me a huge favor? You're a good man."
-                        type="submit" style="margin-top:10px;">Alexander Tangi
+                <button class="btn btn-primary" name="say" value="Can you do me a huge favor?"
+                        type="submit" style="margin-top:10px;">Alexander Tangi 1
                 </button>
-                <button class="btn btn-primary" name="say" value="Man the queen street car was brutal this morning"
+                <button class="btn btn-primary" name="say" value="You're a good man."
+                        type="submit" style="margin-top:10px;">Alexander Tangi 2
+                </button>
+                <button class="btn btn-primary" name="say" value="Man the king street car was brutal this morning"
                         type="submit" style="margin-top:10px;">Rob P
                 </button>
                 <button class="btn btn-primary" name="say" value="Puppy Monkey Baby, Puppy Monkey Baby. Puppy. Monkey. Baby"
