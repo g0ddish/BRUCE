@@ -20,8 +20,7 @@ Route::post('/', function () {
         $data = json_decode(file_get_contents("http://api.icndb.com/jokes/random"));
         $command = 'say -v ' . escapeshellarg($_POST['voice']) . ' "' . $data->value->joke . '"';
     }else {
-        //Filter bad words
-        $say = str_replace("fuck", "f word", $_POST['say']);
+        $say = $_POST['say'];
         $command = 'say -v ' . escapeshellarg($_POST['voice']) . ' "' . $say . '"';
     }
     shell_exec($command);
