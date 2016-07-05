@@ -152,7 +152,7 @@
     </div>
 </div>
     <div class="col-md-12">
-        <div class="container">
+        <div class="container" style="padding-bottom:30px;">
 
             <div class="page-header">
                 <h1>BIMM Catchphrases</h1>

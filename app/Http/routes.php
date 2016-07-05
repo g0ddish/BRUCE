@@ -24,7 +24,7 @@ Route::post('/', function () {
         $command = 'say -v ' . escapeshellarg($_POST['voice']) . ' "' . $say . '"';
     }
     shell_exec($command);
-   echo $command;
+//   echo $command;
     return view('welcome');
 });
 
